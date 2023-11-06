@@ -8,10 +8,9 @@ ThemeData night_theme() => ThemeData(
     brightness: Brightness.dark,
     primaryColor: night_primaryColor,
     textTheme: TextTheme(
-      displayLarge: GoogleFonts.manrope(fontSize: 22),
-      headlineMedium: GoogleFonts.manrope(
-        fontSize: 14,
-        fontWeight: FontWeight.w300
-      ),
+      displayLarge: GoogleFonts.montserrat(fontSize: 24, color: Colors.white),
+      labelLarge: GoogleFonts.montserrat(fontSize: 22, color: Colors.white),
+      headlineMedium: GoogleFonts.montserrat(
+          fontSize: 18, fontWeight: FontWeight.w300, color: Colors.white),
     ),
     scaffoldBackgroundColor: night_primaryColor);

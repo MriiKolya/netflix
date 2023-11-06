@@ -35,6 +35,7 @@ dependencies:
   smooth_page_indicator: ^1.1.0
   google_fonts: ^6.1.0
   flutter_inset_box_shadow: ^1.0.8
+  lottie: ^2.7.0
 
 dev_dependencies:
   flutter_test:
@@ -58,7 +59,7 @@ flutter:
   uses-material-design: true
   assets:
     - assets/logo/Netflix_Logo.png
-    - assets/background_for_startPage/first_page.png
+    - assets/background_for_startPage/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
